@@ -1,0 +1,43 @@
+{
+  /* ---------- Formatting ---------- */
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  /* Ensure Prettier is used for all relevant files */
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /* ---------- Import hygiene ---------- */
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+
+  /* ---------- Line endings (WSL-safe) ---------- */
+  "files.eol": "\n",
+
+  /* ---------- Tailwind ---------- */
+  "tailwindCSS.validate": true,
+  "tailwindCSS.emmetCompletions": true,
+
+  /* ---------- Astro ---------- */
+  "astro.enable-ts-plugin": true,
+
+  /* ---------- Noise reduction ---------- */
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}
